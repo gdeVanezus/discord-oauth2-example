@@ -1,0 +1,13 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <head>
+            <title>Template</title>
+        </head>
+<body>
+    <h2>Profile</h2>
+    <img src='{{ user.avatar_url }}' />
+    <h2>{{ user.name }}</h2>
+  </div>
+</body>
+</html>

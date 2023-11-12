@@ -1,0 +1,7 @@
+{
+    "discord_client_id": "123",
+    "discord_client_secret": "123",
+    "discord_redirect_url": "http://localhost:5000/callback",
+    "discord_bot_token": "123"
+}
+  
